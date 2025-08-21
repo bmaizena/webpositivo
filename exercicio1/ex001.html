@@ -1,32 +1,59 @@
 <!DOCTYPE html>
-<head lang="pt-br">
+<html lang="pt-br">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Exercicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="container">
-        <header>Topo</header>
-        <nav>Menu de Navegação</nav>
+
+        <header>
+            <h1>Minha Página Web</h1>
+            <p>Este é o cabeçalho da página, aqui jaz um ser supremo do planeta terra</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#">QUEM SOMOS</a></li>
+                <li><a href="#">PRODUTOS</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </nav>
+
         <main>
             <section>
                 <h2>Seção: Apresentação</h2>
                 <p>Este Conteúdo representa uma <b>seção temática</b> da página</p>
-                <button type="submit" onclick="mostrarMensagem()">Clique Aqui</button>
+                <button onclick="mostrarMensagem()">Não Clique</button>
             </section>
+            
             <article>
                 <h2>Artigo: Publicação Autônoma</h2> <br>
                 <p>o <b>article</b> é ideal para conteúdos independentes como postagens de blog, notícias ou produtos</p>
-                <img src="img/imagem.jpg" alt="">
+                <!--<img src="img/capi.jpg" alt="capivara">-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mrkComKLfwY?si=ScofHB-frJwVg28E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%;"></iframe>
             </article>
-            <aside>Conteúdo Terciário</aside>
+
+            <aside>
+                <ul>
+                    <li>foi</li>
+                    <li>mal</li>
+                    <li>por</li>
+                    <li>comer</li>
+                    <li>sua</li>
+                    <li>salchicha</li>
+                </ul>
+            </aside>
 
         </main>
-        <footer>Rodapé</footer>
+
+        <footer><h2>Rodapé da Página</h2></footer>
+
         
-        
-        </body>
     </div>
+</body>
 </html>
 <script src="javadoc.js"></script>
